@@ -3,6 +3,7 @@ int main()
 {
     int h;
     scanf("%d",&h);
-    float z=h*2.54;
+    float z;
+    z=2.54*h;
     printf("%.2f",z);
 }
